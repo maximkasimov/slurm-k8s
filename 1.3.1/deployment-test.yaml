@@ -24,8 +24,8 @@ spec:
         command:
           - "/bin/sh"
           - "-c"
-        args: ['while true; do echo "Hello, ${USERNAME}!"; sleep 10; done']
+        args: ['while true; do echo "Hello, ${USERNAME}!"; sleep 5; done']
         env:
           - name: USERNAME
-            value: "USERNAME"
+            value: "Maxim"
 ...
